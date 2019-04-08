@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router ,Route} from 'react-router-dom';
-import Home from '../build/srcfolder/component/Home';
-import About from './About';
-import Navbar from './NavBar';
+import Home from './component/Home';
+import About from './component/About';
+import Navbar from './component/NavBar';
 import AdminHome from './HomeAdmin';
-import PackagePage from './PackagePage';
-import PackageDetail from './PackageDetail';
-import BookPage from './Book';
-import SignUp from './Signup';
+import PackagePage from './admin/PackagePage';
+import PackageDetail from './admin/PackageDetail';
+import BookPage from './admin/Book';
+import SignUp from './admin/Signup';
 
 class App extends Component {
   render() {
